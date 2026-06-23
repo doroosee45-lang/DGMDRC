@@ -1,0 +1,105 @@
+{
+  "app": {
+    "name": "DGM — SIMN",
+    "fullName": "General Directorate of Migration",
+    "country": "Democratic Republic of Congo",
+    "system": "National Migration Information System",
+    "version": "Version 1.0.0"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "foreigners": "Foreigner Files",
+    "borderControl": "Border Control",
+    "infractions": "Infractions",
+    "alerts": "Alerts",
+    "blacklist": "Blacklist",
+    "corrections": "Corrections",
+    "reports": "Reports & Stats",
+    "audit": "Audit Logs",
+    "users": "Users",
+    "profile": "My Profile"
+  },
+  "auth": {
+    "login": "Secure Login",
+    "logout": "Sign Out",
+    "email": "Professional email address",
+    "password": "Password",
+    "twoFA": "2FA Verification",
+    "codeTotp": "Authentication code (6 digits)",
+    "submit": "Sign In",
+    "verify": "Verify",
+    "unauthorized": "Access restricted to authorized DGM staff and partner institutions.",
+    "restricted": "Any unauthorized access attempt is recorded and subject to legal proceedings.",
+    "demo": "Demo account: admin@dgm.gouv.cd / DGM@2026!"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "export": "Export",
+    "noData": "No data available.",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "status": "Status",
+    "actions": "Actions",
+    "date": "Date",
+    "required": "Required",
+    "total": "Total",
+    "page": "Page",
+    "of": "of",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "success": "Success",
+    "error": "Error"
+  },
+  "offline": {
+    "banner": "Offline — Movements will sync when reconnected.",
+    "syncing": "Syncing...",
+    "synced": "{{count}} movement(s) synchronized.",
+    "queued": "Movement saved offline — will sync automatically."
+  },
+  "errors": {
+    "server": "Server error. Please try again.",
+    "network": "Network error. Check your connection.",
+    "unauthorized": "Session expired. Please log in again.",
+    "forbidden": "Access denied. Insufficient permissions.",
+    "notFound": "Resource not found.",
+    "required": "This field is required.",
+    "duplicate": "Duplicate detected."
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Account information and security settings",
+    "changePassword": "Change password",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password",
+    "minLength": "Minimum 8 characters",
+    "passwordMismatch": "Passwords do not match.",
+    "passwordChanged": "Password changed successfully.",
+    "twoFA": "Two-Factor Authentication (2FA)",
+    "twoFAEnabled": "2FA enabled",
+    "twoFADisabled": "2FA disabled",
+    "twoFAActivate": "Enable 2FA",
+    "twoFAWarning": "Two-factor authentication is not enabled. We strongly recommend enabling it to secure your account."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "none": "No notifications",
+    "markAllRead": "Mark all as read",
+    "viewAlerts": "View all alerts →"
+  },
+  "language": {
+    "fr": "Français",
+    "en": "English"
+  }
+}

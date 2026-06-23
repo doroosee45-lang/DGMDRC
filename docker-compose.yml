@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: dgm_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: dgm_simn
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - dgm_network
+
+  redis:
+    image: redis:7.2-alpine
+    container_name: dgm_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - dgm_network
+
+volumes:
+  mongodb_data:
+
+networks:
+  dgm_network:
+    driver: bridge

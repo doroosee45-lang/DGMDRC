@@ -1,0 +1,105 @@
+{
+  "app": {
+    "name": "DGM — SIMN",
+    "fullName": "Direction Générale de Migration",
+    "country": "République Démocratique du Congo",
+    "system": "Système d'Information Migratoire National",
+    "version": "Version 1.0.0"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "foreigners": "Dossiers Étrangers",
+    "borderControl": "Contrôle Frontalier",
+    "infractions": "Infractions",
+    "alerts": "Alertes",
+    "blacklist": "Liste Noire",
+    "corrections": "Corrections",
+    "reports": "Rapports & Stats",
+    "audit": "Journaux d'Audit",
+    "users": "Utilisateurs",
+    "profile": "Mon Profil"
+  },
+  "auth": {
+    "login": "Connexion Sécurisée",
+    "logout": "Déconnexion",
+    "email": "Adresse email professionnelle",
+    "password": "Mot de passe",
+    "twoFA": "Vérification 2FA",
+    "codeTotp": "Code d'authentification (6 chiffres)",
+    "submit": "Se Connecter",
+    "verify": "Vérifier",
+    "unauthorized": "Accès réservé au personnel autorisé de la DGM et institutions partenaires.",
+    "restricted": "Toute tentative d'accès non autorisée est enregistrée et passible de poursuites judiciaires.",
+    "demo": "Compte de démonstration: admin@dgm.gouv.cd / DGM@2026!"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "create": "Créer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "refresh": "Actualiser",
+    "export": "Exporter",
+    "noData": "Aucune donnée disponible.",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "yes": "Oui",
+    "no": "Non",
+    "status": "Statut",
+    "actions": "Actions",
+    "date": "Date",
+    "required": "Obligatoire",
+    "total": "Total",
+    "page": "Page",
+    "of": "sur",
+    "all": "Tous",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "success": "Succès",
+    "error": "Erreur"
+  },
+  "offline": {
+    "banner": "Hors ligne — Les mouvements seront synchronisés à la reconnexion.",
+    "syncing": "Synchronisation en cours...",
+    "synced": "{{count}} mouvement(s) synchronisé(s).",
+    "queued": "Mouvement enregistré hors ligne — sera synchronisé automatiquement."
+  },
+  "errors": {
+    "server": "Erreur serveur. Veuillez réessayer.",
+    "network": "Erreur réseau. Vérifiez votre connexion.",
+    "unauthorized": "Session expirée. Veuillez vous reconnecter.",
+    "forbidden": "Accès refusé. Permissions insuffisantes.",
+    "notFound": "Ressource introuvable.",
+    "required": "Ce champ est obligatoire.",
+    "duplicate": "Doublon détecté."
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "subtitle": "Informations du compte et paramètres de sécurité",
+    "changePassword": "Changer le mot de passe",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "minLength": "Minimum 8 caractères",
+    "passwordMismatch": "Les mots de passe ne correspondent pas.",
+    "passwordChanged": "Mot de passe modifié avec succès.",
+    "twoFA": "Authentification à deux facteurs (2FA)",
+    "twoFAEnabled": "2FA activée",
+    "twoFADisabled": "2FA désactivée",
+    "twoFAActivate": "Activer la 2FA",
+    "twoFAWarning": "L'authentification à deux facteurs n'est pas activée. Nous recommandons fortement de l'activer pour sécuriser votre compte."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "none": "Aucune notification",
+    "markAllRead": "Tout marquer comme lu",
+    "viewAlerts": "Voir toutes les alertes →"
+  },
+  "language": {
+    "fr": "Français",
+    "en": "English"
+  }
+}
