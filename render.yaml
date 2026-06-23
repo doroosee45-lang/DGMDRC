@@ -1,0 +1,46 @@
+services:
+  # ─── Backend API (Web Service) ─────────────────────────────────────
+  - type: web
+    name: dgm-simn-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false        # à renseigner dans le dashboard Render
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_REFRESH_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 15m
+      - key: JWT_REFRESH_EXPIRES_IN
+        value: 8h
+      - key: CORS_ORIGIN
+        sync: false        # URL du frontend Render (ex: https://dgm-simn.onrender.com)
+      - key: RATE_LIMIT_WINDOW
+        value: 900000
+      - key: RATE_LIMIT_MAX
+        value: 200
+
+  # ─── Frontend React (Static Site) ─────────────────────────────────
+  - type: web
+    name: dgm-simn-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    plan: free
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        sync: false        # URL de l'API Render (ex: https://dgm-simn-api.onrender.com/api/v1)
